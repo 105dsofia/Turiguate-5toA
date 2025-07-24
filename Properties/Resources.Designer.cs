@@ -63,6 +63,16 @@ namespace Turiguate_5toA.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1000027327 {
+            get {
+                object obj = ResourceManager.GetObject("1000027327", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Captura_de_pantalla_2025_07_18_104810 {
             get {
                 object obj = ResourceManager.GetObject("Captura de pantalla 2025-07-18 104810", resourceCulture);

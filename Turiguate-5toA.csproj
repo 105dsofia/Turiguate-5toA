@@ -47,11 +47,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="como se creo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="como se creo.Designer.cs">
+      <DependentUpon>como se creo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="haskell dardon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="haskell dardon.Designer.cs">
+      <DependentUpon>haskell dardon.cs</DependentUpon>
     </Compile>
     <Compile Include="Informacion empresa.cs">
       <SubType>Form</SubType>
@@ -65,16 +71,46 @@
     <Compile Include="informativa.Designer.cs">
       <DependentUpon>informativa.cs</DependentUpon>
     </Compile>
+    <Compile Include="mision.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mision.Designer.cs">
+      <DependentUpon>mision.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="proposito de la pagina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="proposito de la pagina.Designer.cs">
+      <DependentUpon>proposito de la pagina.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sobre nosotros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sobre nosotros.Designer.cs">
+      <DependentUpon>Sobre nosotros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Visión.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visión.Designer.cs">
+      <DependentUpon>Visión.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="como se creo.resx">
+      <DependentUpon>como se creo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="haskell dardon.resx">
+      <DependentUpon>haskell dardon.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Informacion empresa.resx">
       <DependentUpon>Informacion empresa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="informativa.resx">
       <DependentUpon>informativa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mision.resx">
+      <DependentUpon>mision.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -86,6 +122,15 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="proposito de la pagina.resx">
+      <DependentUpon>proposito de la pagina.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sobre nosotros.resx">
+      <DependentUpon>Sobre nosotros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visión.resx">
+      <DependentUpon>Visión.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -107,6 +152,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Captura de pantalla 2025-07-18 110840.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1000027327.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

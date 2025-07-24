@@ -117,4 +117,15 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Inicio: Información general sobre el sitio y sus objetivos.
+
+Sobre Nosotros: Quiénes somos y por qué amamos mostrar Guatemala.
+
+Maletas: Consejos prácticos sobre qué llevar en tu viaje.
+
+Misión y Visión: Promovemos un turismo sostenible, accesible y orgulloso de nuestras raíces.
+
+Lugares para Visitar: Descubre volcanes, playas, pueblos mágicos, sitios arqueológicos y mucho más.</value>
+  </data>
 </root>

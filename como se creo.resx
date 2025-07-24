@@ -117,17 +117,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="turi guate logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\turi guate logo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Captura de pantalla 2025-07-18 110840" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Captura de pantalla 2025-07-18 110840.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Captura de pantalla 2025-07-18 104810" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Captura de pantalla 2025-07-18 104810.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="1000027327" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1000027327.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Creamos Guate Turismo con el objetivo de informar 
+y apoyar a todos los que desean conocer más sobre Guatemala. 
+Queremos que tanto turistas nacionales como extranjeros 
+descubran la gran variedad de destinos que ofrece nuestro país: 
+desde sitios naturales impresionantes hasta lugares llenos de historia y cultura.
+Esta página nace para ser una guía confiable y accesible, donde puedas encontrar 
+recomendaciones de lugares para visitar, consejos de viaje,
+ información sobre qué llevar en tu maleta, 
+y conocer nuestra misión de promover un turismo responsable
+ y orgulloso de nuestras raíces.
+
+Con Guate Turismo, descubrir Guatemala será más fácil, emocionante y seguro.
+</value>
   </data>
 </root>

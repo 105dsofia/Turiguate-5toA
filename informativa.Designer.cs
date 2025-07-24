@@ -41,12 +41,12 @@ namespace Turiguate_5toA
             this.informacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.registroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lugaresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.articulosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.juegosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btn3 = new System.Windows.Forms.Button();
             this.btn5 = new System.Windows.Forms.Button();
             this.btn6 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.articulosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.juegosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -153,6 +153,18 @@ namespace Turiguate_5toA
             this.lugaresToolStripMenuItem.Size = new System.Drawing.Size(111, 20);
             this.lugaresToolStripMenuItem.Text = "lugares turisticos ";
             // 
+            // articulosToolStripMenuItem
+            // 
+            this.articulosToolStripMenuItem.Name = "articulosToolStripMenuItem";
+            this.articulosToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
+            this.articulosToolStripMenuItem.Text = "articulos ";
+            // 
+            // juegosToolStripMenuItem
+            // 
+            this.juegosToolStripMenuItem.Name = "juegosToolStripMenuItem";
+            this.juegosToolStripMenuItem.Size = new System.Drawing.Size(58, 20);
+            this.juegosToolStripMenuItem.Text = "Juegos ";
+            // 
             // btn3
             // 
             this.btn3.Font = new System.Drawing.Font("MS PGothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -162,6 +174,7 @@ namespace Turiguate_5toA
             this.btn3.TabIndex = 7;
             this.btn3.Text = "Proposito de la pagina ";
             this.btn3.UseVisualStyleBackColor = true;
+            this.btn3.Click += new System.EventHandler(this.btn3_Click);
             // 
             // btn5
             // 
@@ -172,6 +185,7 @@ namespace Turiguate_5toA
             this.btn5.TabIndex = 9;
             this.btn5.Text = "Misión ";
             this.btn5.UseVisualStyleBackColor = true;
+            this.btn5.Click += new System.EventHandler(this.btn5_Click);
             // 
             // btn6
             // 
@@ -182,6 +196,7 @@ namespace Turiguate_5toA
             this.btn6.TabIndex = 10;
             this.btn6.Text = "Visión";
             this.btn6.UseVisualStyleBackColor = true;
+            this.btn6.Click += new System.EventHandler(this.btn6_Click);
             // 
             // pictureBox1
             // 
@@ -195,18 +210,6 @@ namespace Turiguate_5toA
             this.pictureBox1.TabIndex = 11;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // articulosToolStripMenuItem
-            // 
-            this.articulosToolStripMenuItem.Name = "articulosToolStripMenuItem";
-            this.articulosToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
-            this.articulosToolStripMenuItem.Text = "articulos ";
-            // 
-            // juegosToolStripMenuItem
-            // 
-            this.juegosToolStripMenuItem.Name = "juegosToolStripMenuItem";
-            this.juegosToolStripMenuItem.Size = new System.Drawing.Size(58, 20);
-            this.juegosToolStripMenuItem.Text = "Juegos ";
             // 
             // informativa
             // 

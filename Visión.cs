@@ -10,24 +10,14 @@ using System.Windows.Forms;
 
 namespace Turiguate_5toA
 {
-    public partial class Informacion_empresa : Form
+    public partial class Visión : Form
     {
-        public Informacion_empresa()
+        public Visión()
         {
             InitializeComponent();
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Informacion_empresa_Load(object sender, EventArgs e)
+        private void Visión_Load(object sender, EventArgs e)
         {
 
         }

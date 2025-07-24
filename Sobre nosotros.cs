@@ -10,26 +10,22 @@ using System.Windows.Forms;
 
 namespace Turiguate_5toA
 {
-    public partial class Informacion_empresa : Form
+    public partial class Sobre_nosotros : Form
     {
-        public Informacion_empresa()
+        public Sobre_nosotros()
         {
             InitializeComponent();
         }
 
-        private void label2_Click(object sender, EventArgs e)
+        private void Sobre_nosotros_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void label3_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void Informacion_empresa_Load(object sender, EventArgs e)
-        {
-
+           haskell_dardon haskelldardon = new haskell_dardon();
+           haskelldardon.Show();
         }
     }
 }
