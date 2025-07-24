@@ -49,7 +49,7 @@ namespace Turiguate_5toA
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(233, 170);
+            this.button1.Location = new System.Drawing.Point(218, 151);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 2;
@@ -59,7 +59,7 @@ namespace Turiguate_5toA
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(352, 170);
+            this.button3.Location = new System.Drawing.Point(475, 163);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 3;
