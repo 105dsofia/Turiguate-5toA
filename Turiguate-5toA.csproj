@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="articulo-quek.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="articulo-quek.Designer.cs">
+      <DependentUpon>articulo-quek.cs</DependentUpon>
+    </Compile>
     <Compile Include="extra.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +72,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="articulo-quek.resx">
+      <DependentUpon>articulo-quek.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="extra.resx">
       <DependentUpon>extra.cs</DependentUpon>
     </EmbeddedResource>

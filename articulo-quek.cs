@@ -10,14 +10,24 @@ using System.Windows.Forms;
 
 namespace Turiguate_5toA
 {
-    public partial class maleta : Form
+    public partial class articulo_quek : Form
     {
-        public maleta()
+        public articulo_quek()
         {
             InitializeComponent();
         }
 
-        private void checkBox30_CheckedChanged(object sender, EventArgs e)
+        private void juegosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
         {
 
         }
